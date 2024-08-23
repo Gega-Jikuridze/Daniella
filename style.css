@@ -99,7 +99,7 @@ header{
     margin-bottom: 40px;
 }
 
-.about-text a{
+.btn{
     padding: 19px 55px;
     background-color: #FB3F5C;
     color: #F8EEEF;
@@ -112,3 +112,46 @@ header{
     color: #FB3F5C;
     box-shadow: 3px 3px 5px #FB3F5C;
 }
+
+
+.btn1{
+    padding: 19px 55px;
+    border: 1px solid  #FB3F5C;
+    color:  #FB3F5C;
+    border-radius: 18px;
+    transition: .2s;
+}
+.second-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 230px;
+}
+
+
+.second-text{
+    max-width: 611px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+
+.second-text h1{
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.second-text p{
+    font-size: 24px;
+    font-weight: 400;
+
+}
+
+
+.second-butn{
+    display: flex;
+    gap: 39px;
+}
+
+
