@@ -9,6 +9,15 @@ body{
     font-family: 'Nunito', sans-serif;
 }
 
+/* container  */
+
+.container{
+    max-width: 1443px;
+    width: 100%;
+    padding: 25px 110px;
+    margin: 0 auto;
+}
+
 
 /* header  */
 
@@ -21,11 +30,6 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-
-    max-width: 1443px;
-    width: 100%;
-    padding: 25px 110px;
-    margin: 0 auto;
 }
 
 /* logo  */
@@ -41,6 +45,7 @@ header{
 .nav{
     display: flex;
     gap: 52px;
+    margin-right: 60px;
 }
 
 
@@ -52,8 +57,58 @@ header{
 
 
 .nav a:hover{
-    background-color: #F8EEEF;
+    transform: translateY(10px);
+}
+
+
+
+
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: url(./assets/bg.png);
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    padding-bottom: 79px;
+}
+
+
+.about-text{
+    max-width: 480px;
+}
+
+.about-text h3{
+    font-size: 28px;
+}
+
+.about-text h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.about-text span{
     color: #FB3F5C;
 }
 
 
+.about-text p{
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.about-text a{
+    padding: 19px 55px;
+    background-color: #FB3F5C;
+    color: #F8EEEF;
+    border-radius: 18px;
+    transition: .2s;
+}
+
+.about-text a:hover{
+    background-color: #F8EEEF;
+    color: #FB3F5C;
+    box-shadow: 3px 3px 5px #FB3F5C;
+}
