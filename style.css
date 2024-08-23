@@ -4,3 +4,56 @@
     box-sizing: border-box;
     text-decoration: 0;
 }
+
+body{
+    font-family: 'Nunito', sans-serif;
+}
+
+
+/* header  */
+
+header{
+    background-color: #FB3F5C;
+}
+
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    max-width: 1443px;
+    width: 100%;
+    padding: 25px 110px;
+    margin: 0 auto;
+}
+
+/* logo  */
+
+.logo a{
+    color: #F8EEEF;
+    font-size: 36px;
+    font-family: 'Novomono', monospace;
+}
+
+
+/* nav  */
+.nav{
+    display: flex;
+    gap: 52px;
+}
+
+
+.nav a{
+    font-size: 24px;
+    color: #F8EEEF;
+    transition: .2s;
+}
+
+
+.nav a:hover{
+    background-color: #F8EEEF;
+    color: #FB3F5C;
+}
+
+
